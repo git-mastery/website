@@ -14,27 +14,6 @@ git commit -m <commit message>
 
 ## Exercises
 
-### Prerequisite
-
-Create a local folder for all of your exercises:
-
-```bash
-mkdir exercises
-cd exercises/
-```
-
-Download `pull.sh`:
-
-```bash
-curl -O https://github.com/git-mastery/scripts/blob/main/pull.sh
-```
-
-Give the script permissions:
-
-```bash
-chmod +x pull.sh
-```
-
 ### Exercise 1
 
 Fork the repository: <https://github.com/git-mastery/commit-1/fork>
@@ -47,7 +26,7 @@ bash pull.sh <your Github username> commit-1
 
 #### Goal
 
-Edit the `README.md` file to have any text.
+Edit the `solution.md` file to have any non-empty text.
 
 Commit and push the change to the repository.
 
