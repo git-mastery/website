@@ -53,3 +53,7 @@ Setup Github by following the instructions below.
    2. Add the SSH key to Github
 
 To verify that Github is working, refer to [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=mac) and run the given command (`ssh -T git@github.com`) to ensure that your SSH connection is working correctly.
+
+## Setting up Git Mastery
+
+Once you have completed the setup for Git and Github, please refer to the [next guide to setup Git Mastery for your local machine](/docs/setup/git-mastery-setup)!
