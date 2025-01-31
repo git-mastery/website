@@ -9,3 +9,7 @@ path = 'github.com/alex-shpak/hugo-book'
 [params]
 BookSection = 'docs'
 BookRepo = 'https://github.com/git-mastery/website'
+
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
