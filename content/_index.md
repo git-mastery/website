@@ -3,40 +3,34 @@ title: Content
 type: docs
 ---
 
-# Git Mastery
+# Welcome to Git Mastery!
 
-Welcome to Git Mastery!
-
+{{% hint info %}}
 Git Mastery is a Git education tool designed to make learning Git fun by introducing core Git
 concepts through fun and interactive puzzles designed to put these concepts to practice immediately.
+{{% /hint %}}
 
-## How it works?
+Master Git by completing exercises on your local machine!
 
-All exercises in Git Mastery are to be completed through your local development environment (all you need is your terminal!). By using Github Actions, we are able to perform autograding on exercise packet submissions to determine your progress on each exercise and provide concise pointers for improvement.
+## Why Git Mastery?
 
-## Getting started
+Traditionally, Git is often viewed as a sequence of commands to get from state {{< katex >}}A{{< /katex >}} (having some changes locally) to state {{< katex >}}B{{< /katex >}} (having those changes on a Git server like Github).
 
-Create an empty folder to store all of your exercises.
+As a result, most students will often focus on memorizing a series of commands without actually understanding what each command does. So, when they encounter state {{< katex >}}A'{{< /katex >}} (say a merge conflict), they are often unable to "get unstuck".
 
-```sh
-mkdir exercises
-cd exercises/
-```
+<div style="text-align: center;">
+  <img src="docs/git-education.png" width="200px" />
+</div>
 
-Download the pull script. We will use this script to retrieve the exercise packets so it's best to store it with the exercises folder you created before this.
+By completing various exercises that requires the use of various Git commands, students will start developing an intuition for what each command does. This intuition will allow them to visualize and appropriately apply the exact commands needed to "get unstuck".
 
-```sh
-curl -O https://raw.githubusercontent.com/git-mastery/scripts/refs/heads/main/pull.sh
-```
+## How it works
 
-For each exercise packets, fork the associated repository (linked in each exercise) and use the pull script to download the exercise into your exercises folder.
-
-```sh
-bash pull.sh <your Github username> <exercise packet name>
-```
-
-Work on the exercises locally by executing the Git commands necessary. Once done, you can then push your changes to your fork of your repository and make a pull request to the original exercise packet repository for the autograder to start.
+Git Mastery relies only on Git and Github to perform the autograding. By leveraging [Github Actions](https://github.com/features/actions) and several self-published Python packages (like [`difflib-parser`](https://pypi.org/project/difflib-parser/) and [`git-autograder`](https://pypi.org/project/git-autograder/)), our workflows will grade your attempts at every exercise, giving you concise feedback on what went wrong, and recording your progress for your teachers to refer to.
 
 ## Are you ready?
 
-Interested in levelling up your Git knowledge? Check out the various courses we have published on the left sidebar!
+Ready to level up your Git knowledge?
+
+Start by [setting up your local environment](/docs/setup/prerequisite-setup), followed by [setting up your local machine to work with the Git Mastery exercises](/docs/setup/git-mastery-setup), and dive straight into [our curated lessons](/docs/lessons)!
+
