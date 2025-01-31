@@ -23,23 +23,23 @@ Follow the installation steps for your [operating system (OS) here](https://git-
 
 To ensure that everything is working, run the following commands:
 
-```
+```bash
 git version
 ```
 
 You should see text like this:
 
-```
+```bash
 git version 2.48.1
 ```
 
 Once Git is setup on your local machine, do some initial configuration:
 
-```
+```bash
 git config --global user.email "<your email>"
 ```
 
-```
+```bash
 git config --global user.name "<your name>"
 ```
 
