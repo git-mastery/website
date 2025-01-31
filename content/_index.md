@@ -28,6 +28,21 @@ By completing various exercises that requires the use of various Git commands, s
 
 Git Mastery relies only on Git and Github to perform the autograding. By leveraging [Github Actions](https://github.com/features/actions) and several self-published Python packages (like [`difflib-parser`](https://pypi.org/project/difflib-parser/) and [`git-autograder`](https://pypi.org/project/git-autograder/)), our workflows will grade your attempts at every exercise, giving you concise feedback on what went wrong, and recording your progress for your teachers to refer to.
 
+## How to use
+
+Git Mastery is broken up into two key sections: lessons and extras.
+
+Lessons provide a set of curated content teaching the fundamentals of Git and going over key commands you will require. Most lessons are structured as such:
+
+1. Content
+2. Hands-on
+3. Exercises
+
+Extras, on the other hand, cover various Git topics that were briefly introduced in the lessons (but we did not want to cover then to reduce clutter) or topics that we find are crucial in Git mastery. They will have the following structure:
+
+1. Content
+2. Exercises
+
 ## Are you ready?
 
 Ready to level up your Git knowledge?

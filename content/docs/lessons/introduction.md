@@ -18,6 +18,34 @@ These repositories can exist on both your local machines or remotely on an exter
 
 [Github](https://github.com) is an example of a hosted remote Git server where you can create remote repositories and work on them locally (while pushing changes remotely, hence the "decentralized" nature of Git).
 
-{{% hint info %}}
+{{% hint warning %}}
 We will be covering how you can get your local repository changes to a remote repository like Github and vice versa in a following lesson!
+
+In the meantime, we will be providing you with the commands necessary to get your changes to Github.
 {{% /hint %}}
+
+## Hands-on: Creating a local repository
+
+You can create a local repository from an existing project folder or from an empty folder.
+
+To follow along with the lessons, create an empty local repository.
+
+Create a folder that will become the repository.
+
+```bash
+mkdir new-folder/
+```
+
+Navigate to the folder.
+
+```bash
+cd new-folder/
+```
+
+Run the following command:
+
+```bash
+git init
+```
+
+This tells Git that you want this folder to be monitored by Git.
