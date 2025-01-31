@@ -34,3 +34,7 @@ Ready to level up your Git knowledge?
 
 Start by [setting up your local environment](/docs/setup/prerequisite-setup), followed by [setting up your local machine to work with the Git Mastery exercises](/docs/setup/git-mastery-setup), and dive straight into [our curated lessons](/docs/lessons)!
 
+## Credits
+
+The lesson contents were adapted from the [NUS Hackers Orbital Git workshop material](https://wiki.nushackers.org/orbital/git) (because [Jiahao](https://woojiahao.com), the primary developer of Git Mastery was the person who had also written the NUS Hackers Orbital Git workshop material).
+
