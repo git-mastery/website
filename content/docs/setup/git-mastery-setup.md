@@ -25,13 +25,13 @@ We use this script to download exercises so store it with the `exercises/` folde
 {{% /hint %}}
 
 ```sh
-curl -O https://raw.githubusercontent.com/git-mastery/scripts/refs/heads/main/pull.sh
+curl -O https://raw.githubusercontent.com/git-mastery/scripts/refs/heads/main/download.sh
 ```
 
 For each exercise, fork the associated repository (linked in each exercise) and use the above `pull.sh` script to download the exercise into your exercises folder.
 
 ```sh
-bash pull.sh <your Github username> <exercise packet name>
+bash download.sh <exercise name>
 ```
 
 Work on the exercises locally by executing the Git commands necessary. Once done, you can then push your changes to your fork of your repository and make a pull request to the original exercise packet repository for the autograder to start.
@@ -45,7 +45,7 @@ Fork the [`diagnostics` repository](https://github.com/git-mastery/diagnostic/fo
 Download the exercise to your local machine.
 
 ```sh
-bash pull.sh <your Github username> diagnostic
+bash download.sh diagnostic
 ```
 
 Change directory into the exercise.
@@ -67,7 +67,7 @@ git commit --allow-empty -m "Test commit"
 Push the commit to your fork.
 
 ```bash
-git push -u origin main
+bash submit.sh
 ```
 
 Create a pull request on the exercise's repository. You can leave all of the other fields blank.
