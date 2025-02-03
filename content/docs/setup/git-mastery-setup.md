@@ -40,8 +40,6 @@ Work on the exercises locally by executing the Git commands necessary. Once done
 
 To ensure that you have setup your local machine correctly to start using Git Mastery, we have prepared a diagnostic exercise for you to verify.
 
-Fork the [`diagnostics` repository](https://github.com/git-mastery/diagnostic/fork) and keep the repository name as it is.
-
 Download the exercise to your local machine.
 
 ```sh
