@@ -68,17 +68,7 @@ Push the commit to your fork.
 bash submit.sh
 ```
 
-Create a pull request on the exercise's repository. You can leave all of the other fields blank.
-
-{{% hint warning %}}
-For instructions to create a pull request, refer to this [page](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
-
-We will cover pull requests in a bit, but no knowledge of pull requests is necessary for this diagnostic exercise.
-{{% /hint %}}
-
-<div style="text-align: center;">
-  <img src="pr.png" width="800px" />
-</div>
+This should automatically create a pull request for this exercise which you can see here: <https://github.com/git-mastery/diagnostic/pulls> using the following format: `[Github username] [diagnostic] Submission`.
 
 If everything went well, you should see the following success message on the pull request.
 
