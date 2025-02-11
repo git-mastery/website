@@ -1,5 +1,5 @@
 ---
-title: Git Mastery Setup
+title: Git Mastery
 type: docs
 weight: 2
 draft: false
@@ -18,7 +18,7 @@ mkdir exercises
 cd exercises/
 ```
 
-Download the pull script.
+Get the download script.
 
 {{% hint info %}}
 We use this script to download exercises so store it with the `exercises/` folder
@@ -28,17 +28,23 @@ We use this script to download exercises so store it with the `exercises/` folde
 curl -O https://raw.githubusercontent.com/git-mastery/scripts/refs/heads/main/download.sh
 ```
 
-For each exercise, fork the associated repository (linked in each exercise) and use the above `pull.sh` script to download the exercise into your exercises folder.
+This script will use Github CLI to automate the forking and cloning process.
+
+For each exercise, run the following commands:
 
 ```sh
 bash download.sh <exercise name>
 ```
 
-Work on the exercises locally by executing the Git commands necessary. Once done, you can then push your changes to your fork of your repository and make a pull request to the original exercise packet repository for the autograder to start.
+Work on the exercises locally by executing the Git commands necessary. Once done, you can typically use the included `submit.sh` script in each exercise.
+
+```bash
+bash submit.sh
+```
 
 ## Diagnostic exercise
 
-To ensure that you have setup your local machine correctly to start using Git Mastery, we have prepared a diagnostic exercise for you to verify.
+To ensure that you have setup your local machine correctly to start using Git Mastery, try running the following diagnostic exercise.
 
 Download the exercise to your local machine.
 

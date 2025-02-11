@@ -1,5 +1,5 @@
 ---
-title: Prerequisite Setup
+title: Prerequisites
 type: docs
 weight: 1
 draft: false
@@ -54,6 +54,18 @@ Setup Github by following the instructions below.
 
 To verify that Github is working, refer to [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=mac) and run the given command (`ssh -T git@github.com`) to ensure that your SSH connection is working correctly.
 
+## Github CLI
+
+Git Mastery uses Github CLI to streamline and automate the download and submission processes.
+
+Follow the [installation instructions here](https://github.com/cli/cli#installation) for your operating system.
+
+After you have installed Github CLI, run the following command to login to your preferred Github account:
+
+```bash
+gh auth login
+```
+
 ## Setting up Git Mastery
 
-Once you have completed the setup for Git and Github, please refer to the [next guide to setup Git Mastery for your local machine](/docs/setup/git-mastery-setup)!
+Once you have completed the setup for Git, Github, and Github CLI, please refer to the [next guide to setup Git Mastery for your local machine](/docs/setup/git-mastery-setup)!
