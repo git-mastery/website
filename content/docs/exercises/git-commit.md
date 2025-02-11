@@ -76,8 +76,9 @@ Try to change the file to:
 
 ## Double take
 
-> [!NOTE]  
-> There are two parts to this exercise! Read carefully!
+{{% hint info %}}
+There are two parts to this exercise! Read carefully!
+{{% /hint %}}
 
 ### Get started
 
