@@ -79,6 +79,14 @@ Try to change the file to:
 > [!NOTE]  
 > There are two parts to this exercise! Read carefully!
 
+### Get started
+
+Download the exercise:
+
+```bash
+bash download.sh double-take
+```
+
 ### Part 1
 
 You have designed a custom file format to track your monthly expenses. It is time for you to add your expenses for February 2025.
