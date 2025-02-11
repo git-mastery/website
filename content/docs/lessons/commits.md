@@ -2,6 +2,8 @@
 draft: false
 ---
 
+# Commits
+
 ## What is a commit?
 
 To track a codebase, Git relies on a system of **commits.**
@@ -135,3 +137,7 @@ The `-m` flag is used to specify the commit message. Every commit has an accompa
 {{% hint info %}}
 If you do not use `-m`, your favorite terminal/GUI editor will be launched and you can compose the commit message in that editor, save it, and close the editor
 {{% /hint %}}
+
+## Exercises
+
+You may find exercises for `git commit` [here](/docs/exercises/git-commit).
