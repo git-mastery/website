@@ -1,6 +1,7 @@
 ---
 title: git commit
 weight: 1
+draft: true
 ---
 
 # `git commit`

@@ -1,6 +1,7 @@
 ---
 title: git status
-weight: 1
+weight: 2
+draft: true
 ---
 
 # `git status`

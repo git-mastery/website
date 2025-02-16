@@ -13,3 +13,9 @@ BookRepo = 'https://github.com/git-mastery/website'
 [markup]
 [markup.goldmark.renderer]
 unsafe = true
+
+[menu]
+[[menu.after]]
+name = "Problems"
+url = "https://github.com/git-mastery/problems-directory"
+weight = 10

@@ -83,7 +83,7 @@ Recall that in [Adding files to a snapshot](./#adding-files-to-a-snapshot "menti
 {{% hint info %}}
 `git status` is to view the state of your repository in Git's eyes. Use it to view things like the current files in the snapshot.
 
-We will be covering what it does in a later lesson.
+You may find exercises for it [here](https://github.com/git-mastery/problems-directory?tab=readme-ov-file#git-status).
 {{% /hint %}}
 
 ### Tracking files
@@ -140,4 +140,4 @@ If you do not use `-m`, your favorite terminal/GUI editor will be launched and y
 
 ## Exercises
 
-You may find exercises for `git commit` [here](/docs/exercises/git-commit).
+You may find exercises for `git commit` [here](https://github.com/git-mastery/problems-directory?tab=readme-ov-file#git-commit).
