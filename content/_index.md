@@ -20,7 +20,7 @@ Git Mastery aims to address this issue by providing deliberate practice through 
 
 Ready to level up your Git knowledge?
 
-[Set up your local environment](/docs/setup/git-mastery-setup) and get started!
+[Set up your local environment](/docs/setup) and get started!
 
 To find all exercises, go to the [problems directory](https://github.com/git-mastery/problems-directory).
 
