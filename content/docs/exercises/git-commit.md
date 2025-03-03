@@ -7,7 +7,7 @@ draft: true
 # `git commit`
 
 {{% hint info %}}
-We introduce what committing does and how it works in our [commits lesson](/docs/lessons/commits).
+We introduce what committing does and how it works in our [commits lesson](docs/lessons/commits).
 {{% /hint %}}
 
 ## Grocery shopping

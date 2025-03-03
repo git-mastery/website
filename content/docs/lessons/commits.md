@@ -40,7 +40,7 @@ There are also ways to remove files from the staging area!
 
 ## Hands-on: Committing to your local repository
 
-To better understand how commits work, we have prepared a simple exercise that can work out the local repository [created in the introduction](/docs/lessons/introduction/#creating-a-local-repository).
+To better understand how commits work, we have prepared a simple exercise that can work out the local repository [created in the introduction](docs/lessons/introduction/#creating-a-local-repository).
 
 ### Adding a new file
 
