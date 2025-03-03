@@ -1,4 +1,5 @@
 baseURL = 'https://example.org/'
+relativeURLs = true
 languageCode = 'en-us'
 title = 'Git Mastery'
 
@@ -19,3 +20,8 @@ unsafe = true
 name = "Problems"
 url = "https://github.com/git-mastery/problems-directory"
 weight = 10
+
+[[menu.after]]
+name = "Progress Dashboard"
+url = "https://git-mastery.github.io/progress-dashboard"
+weight = 11
